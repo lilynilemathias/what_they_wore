@@ -1,6 +1,6 @@
 #What They Wore!
 
-This Rails Application helps users dress for film festivals by allowing to see fashions from festivals in recents years. 
+This Rails Application helps users dress for film festivals by allowing them to see fashions from festivals in recents years. 
 
 This Rails Application is built by Lily Mathias and Melodie Malfa, software engineers.
 
