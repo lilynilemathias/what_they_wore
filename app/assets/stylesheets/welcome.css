@@ -1,0 +1,16 @@
+body{
+	text-align: center: ;
+	background-image: url(<%= asset_path('movie_p.jpg') %>)
+	background-color: silver;
+	
+
+}
+
+h1{
+  font-size: 250%;
+}
+
+/*ul{
+	list-style-type: none;
+}
+*/
