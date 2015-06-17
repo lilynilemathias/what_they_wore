@@ -1,3 +1,16 @@
 WHAT THEY WORE
 Your personal guide to Film Festival Fashion!
+<%= link_to "Sign In with Instagram", "/auth/instagram" %>
+<% if signed_in? %>
+	<%= form_for :fashion_images, url: fashion_images_path, method: :get do |	form| %>
+		<%= form.text_field :query %>
+		<%= form.submit "Search Fashion" %>
+	<% end %>
+<% end %>
+<!-- <form id="film festival" action="/api/index" method="GET">
+	<label for="festival">Please Enter Your Festival</label>
+	<input type="text" name="festival" autofocus/> 
+	<input type="submit">
+</form>
 
+ -->

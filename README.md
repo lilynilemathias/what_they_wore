@@ -1,15 +1,9 @@
 #What They Wore!
 
-This Rails Application helps users dress for film festivals by allowing them to see fashions from festivals in recents years. 
+The goal of this Rails Application is to help users dress for film festivals by allowing them to see fashions from different film festivals in recents year. The user would enter the name of the film festival they are attending and the application would retrieve images through Instagram.
 
-This Rails Application is built by Lily Mathias and Melodie Malfa, software engineers.
 
-Technologies used:
-1. Ruby-on-Rails
-2. Javascript
-3. jQuery
-4. Ajax
-5. Postgresql
-6. Instagram API
+Lily Mathias and Melodie Malfa, software engineers.
+Technologies used: Ruby-on-Rails and Instagram API
 
 

@@ -1,6 +1,6 @@
 body{
 	text-align: center: ;
-	background-image: url(<%= asset_path('movie_p.jpg') %>)
+	background-image: url(movie_pic.jpg);
 	background-color: silver;
 	
 

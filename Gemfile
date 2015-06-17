@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'instagram'
+gem 'omniauth'
+gem 'omniauth-instagram'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'

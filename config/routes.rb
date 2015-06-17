@@ -2,9 +2,13 @@ Rails.application.routes.draw do
  
   get 'welcome/index'
 
-  # get 'api/index'
+  get 'api/index'
 
   root 'welcome#index'
+  get '/auth/:provider/callback', to: "sessions#create"
+
+  resources :fashion_images, only: [:index]
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
